@@ -1,7 +1,7 @@
 {
   "name": "wow_wow",
   "version": "1.0.0",
-  "description": "Simple npm project",
+  "description": "Simple npm project to support teaRank",
   "main": "index.js",
   "scripts": {
     "test": "exit 0"
@@ -9,7 +9,8 @@
   "keywords": [
     "wow",
     "simple",
-    "npm"
+    "npm",
+    "teaRank"
   ],
   "author": "xinyuzjj",
   "license": "ISC",

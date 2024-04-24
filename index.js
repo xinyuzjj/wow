@@ -22,7 +22,4 @@ class WowWow {
     }
 }
 
-const myWow = new WowWow("World");
-myWow.greet();
-myWow.wow();
-myWow.times(3);
+module.exports = WowWow;
