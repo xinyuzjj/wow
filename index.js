@@ -5,6 +5,7 @@ const _ = require('lodash');
 class WowWow {
     constructor(name) {
         this.name = name;
+        this.dependencies = ['lodash'];
     }
 
     greet() {
@@ -19,6 +20,14 @@ class WowWow {
         _.times(n, () => {
             console.log("Wow!");
         });
+    }
+
+    addDependency(dep) {
+        this.dependencies.push(dep);
+    }
+
+    listDependencies() {
+        console.log(`Dependencies: ${this.dependencies.join(', ')}`);
     }
 }
 
