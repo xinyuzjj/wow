@@ -12,6 +12,10 @@
     "npm",
     "teaRank"
   ],
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/xinyuzjj/wow
+  },
   "author": "xinyuzjj",
   "license": "ISC",
   "dependencies": {
